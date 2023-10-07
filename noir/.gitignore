@@ -1,0 +1,13 @@
+# Nargo output
+*.proof
+*.acir
+*.acir.sha256
+*.tr
+*.pk
+*.vk
+**/Verifier.toml
+**/target
+!tooling/nargo_cli/tests/acir_artifacts/*/target
+!tooling/nargo_cli/tests/acir_artifacts/*/target/witness.gz
+!compiler/wasm/noir-script/target
+libbarretenberg-wasm32
